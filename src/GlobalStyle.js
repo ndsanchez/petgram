@@ -17,4 +17,21 @@ export const GlobalStyle = createGlobalStyle`
   ul { list-style: none }
 
   button { background-color: transparent; border: 0; outline: 0 }
+
+  body {
+    background-color: #FEFEFE;
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: none;
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+
+  #app {
+    width: 100%;
+    min-height: 100vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    overflow-x: none;
+    padding-bottom: 10px;
+  }
 `
