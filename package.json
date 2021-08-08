@@ -31,7 +31,8 @@
   "standard": {
     "ignore": [
       "/node_modules/**",
-      "/dist/**"
+      "/dist/**",
+      "/api/**"
     ]
   },
   "eslintConfig": {
