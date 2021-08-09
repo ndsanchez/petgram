@@ -27,3 +27,7 @@ export const Button = styled.button`
     margin-right: 2px;
   }
 `
+
+export const Article = styled.article`
+  margin-top: 30px;
+`
